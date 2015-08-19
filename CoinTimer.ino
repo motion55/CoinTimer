@@ -122,6 +122,8 @@ void loop()
 				digits[2] = 0;
 				if (digits[3]<9)
 					digits[3]++;
+				else
+					digits[2] = 9;
 			}
 		}
 		coinState = LOW;
